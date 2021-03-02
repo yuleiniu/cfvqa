@@ -1,3 +1,5 @@
+## Counterfactual VQA (CF-VQA)
+
 This repository is the Pytorch implementation of our paper ["Counterfactual VQA: A Cause-Effect Look at Language Bias"](https://arxiv.org/abs/2006.04315) in CVPR 2021. The code will come soon.
 
 ## Citations
