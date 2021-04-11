@@ -54,6 +54,8 @@ class UpDnNet(nn.Module):
             if self.self_q_att:
                 self.q_att_linear0_single = nn.Linear(2400, 512)
                 self.q_att_linear1_single = nn.Linear(512, 2)
+        else:
+            self.txt_enc_single = None
 
         if self.classif['mlp']['dimensions'][-1] != len(self.aid_to_ans):
             Logger()(f"Warning, the classif_mm output dimension ({self.classif['mlp']['dimensions'][-1]})" 
