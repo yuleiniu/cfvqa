@@ -56,7 +56,7 @@ bash cfvqa/datasets/scripts/download_vqacp2.sh
 
 ### Train a model
 
-The [boostrap/run.py](https://github.com/Cadene/bootstrap.pytorch/blob/master/bootstrap/run.py) file load the options contained in a yaml file, create the corresponding experiment directory and start the training procedure. For instance, you can train our best model on VQA-CP v2 (CFVQA+SUM+SMRL) by running:
+The [bootstrap/run.py](https://github.com/Cadene/bootstrap.pytorch/blob/master/bootstrap/run.py) file load the options contained in a yaml file, create the corresponding experiment directory and start the training procedure. For instance, you can train our best model on VQA-CP v2 (CFVQA+SUM+SMRL) by running:
 ```bash?
 python -m bootstrap.run -o cfvqa/options/vqacp2/smrl_cfvqa_sum.yaml
 ```
