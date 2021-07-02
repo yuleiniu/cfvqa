@@ -94,7 +94,7 @@ python -m bootstrap.run \
 
 For a specific experiment:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python -m boostrap.run -o cfvqa/options/vqacp2/smrl_cfvqa_sum.yaml
+CUDA_VISIBLE_DEVICES=0 python -m bootstrap.run -o cfvqa/options/vqacp2/smrl_cfvqa_sum.yaml
 ```
 
 For the current terminal session:
